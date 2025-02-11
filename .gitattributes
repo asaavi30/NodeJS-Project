@@ -1,1 +1,1 @@
-.ejs linguist-vendored=false
+*.ejs linguist-detectable=false  # Exclude CSS files
