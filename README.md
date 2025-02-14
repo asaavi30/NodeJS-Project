@@ -153,6 +153,12 @@ This project integrates **PayPal Payment Gateway** to support:
 ![](screenshots/9.png)
 ![](screenshots/10.png)
 ![](screenshots/11.png)
+![](screenshots/DB-1.png)
+![](screenshots/DB-2.png)
+![](screenshots/DB-3.png)
+![](screenshots/DB-4.png)
+![](screenshots/DB-5.png)
+
 
 ---
 
