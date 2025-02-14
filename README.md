@@ -26,26 +26,6 @@ Before running the project, ensure you have the following installed:
 - **MySQL** (or any MySQL-compatible database)
 - **npm** (Node Package Manager)
 
-## Setup Instructions
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/asaavi30/NodeJS-Project-E-Commerce-Food-Industry-Website.git
-2. **Install dependencies**:
-   npm install
-3. **Set up the database:**
-   * Create a MySQL database and update the .env file with your database credentials.
-   * Run the SQL scripts to create the necessary tables (e.g., products, orders, order_items, etc.).
-4. **Configure environment variables:**
-   Create a .env file in the root directory and add the following:
-   DB_HOST=your-database-host
-   DB_USER=your-database-username
-   DB_PASSWORD=your-database-password
-   DB_NAME=your-database-name
-5. **Run the application:**
-   npm start
-   The application will be running on http://localhost:8081.
-
 ## Project Structure
 
 ```
@@ -93,22 +73,46 @@ DB_NAME=your_database_name
 - **Express Session** - Session management for user cart and authentication.
 - **Body Parser** - Middleware for parsing request bodies.
 - **Dotenv** - Loads environment variables from a `.env` file.
+- **PayPal SDK** - Integrated for real and sample (pseudo) payments.
 
+## Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/your-repo.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd your-repo
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Set up environment variables in a `.env` file.
+5. Start the server:
+   ```sh
+   npm start
+   ```
 
 ## Database Setup
 
-This project uses XAMPP, PHPMyAdmin, and MySQL for database management:
+This project uses **XAMPP**, **PHPMyAdmin**, and **MySQL** for database management:
 
-* XAMPP is used as a local server environment.
-* PHPMyAdmin provides a graphical interface to manage the MySQL database.
-* MySQL is used as the primary database.
+- **XAMPP** is used as a local server environment.
+- **PHPMyAdmin** provides a graphical interface to manage the MySQL database.
+- **MySQL** is used as the primary database.
 
-Steps to Set Up the Database:
+### Steps to Set Up the Database
 
-* Start Apache and MySQL in XAMPP.
-* Open PHPMyAdmin in your browser (http://localhost/phpmyadmin).
-* Create a new database with the name specified in your .env file.
-* Import the provided SQL file or create necessary tables manually.
+1. Start **Apache** and **MySQL** in XAMPP.
+2. Open **PHPMyAdmin** in your browser: [`http://localhost/phpmyadmin`](http://localhost/phpmyadmin).
+3. Create a new database with the name specified in your `.env` file.
+4. Import the provided SQL file or create necessary tables manually.
 
-   
+## Payment Integration
+
+This project integrates **PayPal Payment Gateway** to support:
+- **Real Payments**: Users can make actual transactions using PayPal.
+- **Sample (Pseudo) Payments**: A sandbox mode is available for testing transactions without real money.
 
