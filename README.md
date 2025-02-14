@@ -2,6 +2,8 @@
 
 This is a simple e-commerce web application built using **Node.js**, **Express**, and **MySQL**. The application allows users to browse products, add them to a shopping cart, and proceed to checkout. It also includes features like product search, cart management, and order placement.
 
+---
+
 ## Features
 
 - **Product Browsing**: View a list of available products.
@@ -9,6 +11,8 @@ This is a simple e-commerce web application built using **Node.js**, **Express**
 - **Checkout**: Place orders with shipping and payment details.
 - **Order Management**: View order summaries and track order status.
 - **Session Management**: Persistent cart and user session management.
+
+---
 
 ## Technologies Used
 
@@ -18,6 +22,8 @@ This is a simple e-commerce web application built using **Node.js**, **Express**
 - **Session Management**: Express Session
 - **Environment Variables**: `dotenv`
 
+---
+
 ## Prerequisites
 
 Before running the project, ensure you have the following installed:
@@ -25,6 +31,8 @@ Before running the project, ensure you have the following installed:
 - **Node.js** (v14 or higher)
 - **MySQL** (or any MySQL-compatible database)
 - **npm** (Node Package Manager)
+
+---
 
 ## Project Structure
 
@@ -35,8 +43,11 @@ public/          - Static files like CSS, JavaScript, and images.
 .env             - Environment variables for database configuration.
 package.json     - Lists project dependencies and scripts.
 ```
+---
 
 ## API Endpoints
+
+---
 
 ### Product and Cart Management
 - `GET /` - Home page with a list of products.
@@ -47,6 +58,8 @@ package.json     - Lists project dependencies and scripts.
 - `POST /remove_product` - Remove a product from the cart.
 - `POST /edit_product_quantity` - Update the quantity of a product in the cart.
 
+---
+
 ### Checkout and Payment
 - `GET /checkout` - Proceed to the checkout page.
 - `POST /place_order` - Place an order.
@@ -54,8 +67,11 @@ package.json     - Lists project dependencies and scripts.
 - `GET /verify_payment` - Verify payment and update order status.
 - `GET /thank_you` - Order confirmation page.
 
+---
+
 ## Environment Variables
 
+---
 The following environment variables are required:
 
 ```
@@ -64,6 +80,7 @@ DB_USER=your_database_username
 DB_PASSWORD=your_database_password
 DB_NAME=your_database_name
 ```
+---
 
 ## Dependencies
 
@@ -74,6 +91,8 @@ DB_NAME=your_database_name
 - **Body Parser** - Middleware for parsing request bodies.
 - **Dotenv** - Loads environment variables from a `.env` file.
 - **PayPal SDK** - Integrated for real and sample (pseudo) payments.
+
+---
 
 ## Installation
 
@@ -94,6 +113,7 @@ DB_NAME=your_database_name
    ```sh
    npm start
    ```
+---
 
 ## Database Setup
 
@@ -103,6 +123,7 @@ This project uses **XAMPP**, **PHPMyAdmin**, and **MySQL** for database manageme
 - **PHPMyAdmin** provides a graphical interface to manage the MySQL database.
 - **MySQL** is used as the primary database.
 
+---
 ### Steps to Set Up the Database
 
 1. Start **Apache** and **MySQL** in XAMPP.
@@ -110,11 +131,15 @@ This project uses **XAMPP**, **PHPMyAdmin**, and **MySQL** for database manageme
 3. Create a new database with the name specified in your `.env` file.
 4. Import the provided SQL file or create necessary tables manually.
 
+---
+
 ## Payment Integration
 
 This project integrates **PayPal Payment Gateway** to support:
 - **Real Payments**: Users can make actual transactions using PayPal.
 - **Sample (Pseudo) Payments**: A sandbox mode is available for testing transactions without real money.
+
+---
 
 ## Screenshots
 ![](screenshots/1.png)
@@ -129,5 +154,6 @@ This project integrates **PayPal Payment Gateway** to support:
 ![](screenshots/10.png)
 ![](screenshots/11.png)
 
+---
 
 
