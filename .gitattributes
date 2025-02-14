@@ -1,0 +1,3 @@
+*.ejs linguist-detectable=false  # Exclude EJS files
+*.css linguist-detectable=false  # Exclude CSS files
+*.scss linguist-detectable=false  # Exclude SCSS files
