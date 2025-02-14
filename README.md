@@ -116,3 +116,15 @@ This project integrates **PayPal Payment Gateway** to support:
 - **Real Payments**: Users can make actual transactions using PayPal.
 - **Sample (Pseudo) Payments**: A sandbox mode is available for testing transactions without real money.
 
+## Screenshots
+![](screenshots/1.png)
+![](screenshots/2.png)
+![](screenshots/3.png)
+![](screenshots/4.png)
+![](screenshots/5.png)
+![](screenshots/6.png)
+![](screenshots/7.png)
+![](screenshots/8.png)
+![](screenshots/9.png)
+
+
